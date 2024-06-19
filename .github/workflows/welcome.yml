@@ -1,0 +1,7 @@
+name: "add a comment in pull request"
+on:
+  pull_request:
+    types: opened
+permissions:
+  pull-requests: write
+  
