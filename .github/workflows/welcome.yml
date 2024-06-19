@@ -4,4 +4,10 @@ on:
     types: opened
 permissions:
   pull-requests: write
+
+jobs:
+  build:
+    name: "post welcome message"
+    runs-on: ubuntu-latest
+    
   
